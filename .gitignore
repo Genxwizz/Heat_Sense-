@@ -1,0 +1,33 @@
+# Environment variables / secrets
+.env
+*.env
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# Python / Backend / ML
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+backend/venv/
+ml/venv/
+
+# Data files (large datasets, keep only code)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
